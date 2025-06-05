@@ -6,3 +6,4 @@
 
 # Inherit from virtio_arm64
 $(call inherit-product, device/virt/virtio_arm64/device.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
